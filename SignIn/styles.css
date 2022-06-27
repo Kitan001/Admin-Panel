@@ -1,0 +1,303 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+body{
+    background-image: url(Stars.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+.nav{
+    display: flex;
+    background-color: white;
+    width: 65pc;
+    margin-left: 100px;
+    border-radius: 12px;
+    
+    }
+    .nai{
+        justify-content: center;
+    }
+.dash{
+    margin-top: 17px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    
+    list-style-type: none;
+   margin-left: 150px;
+   }
+li{
+margin-right: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: crimson;
+    transition: 0.3s ease-in-out;
+}
+
+button{
+    background-color: black;
+    border: none;
+    height: 30px;
+    color: white;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);;
+}
+button:hover{
+    background-color: gray;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+.formbox{
+    margin-left: 450px;
+    margin-top: 150px;
+    background-color: white;
+    width: 320px;
+    border-radius: 10px;
+    height: 300px;
+   position: relative;
+}
+input[type="text"]{
+    margin-top: 70px;
+    border: 1px solid lightgray;
+    width: 300px;
+    margin-left: 7px;
+    height: 27px;  
+}
+input[type="password"]{
+    margin-top: 10px;
+    border: 1px solid lightgray;
+    width: 300px;
+    margin-left: 7px;
+    height: 27px;  
+}
+input[type="checkbox"]{
+    margin-top: 15px;
+    cursor: pointer;
+}
+input[type="submit"]{
+    width: 290px;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    height: 30px;
+    margin-left: 14px;
+    background-color: rgb(184, 5, 81);
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+input[type="submit"]:hover{
+    background-color: gray;
+    transition: 0.3s ease-out;
+}
+::placeholder{
+    font-weight:bold;
+}
+#menu-btn{
+    display: none;
+    font-size: 20px;
+}
+.sign{
+    background-color:rgb(184, 8, 81);;
+    width: 300px;
+   top: -50px;
+   position: absolute;
+    color: white;
+    height:100px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+h2{
+    text-align: center;
+}
+.im{
+    font-size: 25px;
+    margin-top: 5px;
+    color: white;
+}
+.img{ 
+    margin-left: 10px;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: -10px;
+   }
+   img{
+    width: 30px;
+    border-radius: 200px;
+   }
+   .signup{
+     color: rgb(184, 5, 81);
+     font-weight: bolder;
+   }
+   p{
+    font-size:14px;
+    color: gray;
+    text-align: center;
+    margin-top: 30px;
+   }
+   .signup:hover{
+    color: gray;
+    transition: 0.3s ease-out;
+   }
+  .love{
+    margin-left: 1px;
+   
+  }
+  @media (max-width: 360px) and (min-width: 260px) {
+    .nav {
+        display: none;
+    }
+    .formbox {
+        margin-left:10px;
+        margin-top: 150px;
+        background-color: white;
+        width: 250px;
+        border-radius: 10px;
+        height: 300px;
+        position: relative;
+    }
+    #menu-btn{
+        display: initial;
+        color: white;
+        font-size: 30px;
+        margin-left: 85%;
+        
+    }
+    input[type="text"] {
+        margin-top: 70px;
+        border: 1px solid lightgray;
+        width: 200px;
+        margin-left: 7px;
+        height: 27px;
+    }
+    input[type="password"] {
+        margin-top: 7px;
+        border: 1px solid lightgray;
+        width: 200px;
+        margin-left: 7px;
+        height: 27px;
+    }
+    input[type="submit"] {
+        width: 200px;
+        border-radius: 7px;
+        border: none;
+        color: white;
+        height: 30px;
+        margin-left: 14px;
+        background-color: rgb(184, 5, 81);
+        cursor: pointer;
+        margin-top: 20px;
+    }
+    .sign {
+        background-color: rgb(184, 8, 81);
+        width: 230px;
+        top: -50px;
+        position: absolute;
+        color: white;
+        height: 100px;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+    p {
+        font-size: 10px;
+        color: gray;
+        text-align: center;
+        margin-top: 30px;
+    }
+  }
+@media (max-width: 260px) {
+    .nav {
+        display: none;
+    }
+    .formbox {
+        margin-left:10px;
+        margin-top: 150px;
+        background-color: white;
+        width: 250px;
+        border-radius: 10px;
+        height: 300px;
+        position: relative;
+    }
+    #menu-btn{
+        display: initial;
+        color: white;
+        font-size: 30px;
+        margin-left: 85%;
+        }
+    input[type="text"] {
+        margin-top: 70px;
+        border: 1px solid lightgray;
+        width: 200px;
+        margin-left: 7px;
+        height: 27px;
+    }
+    input[type="password"] {
+        margin-top: 7px;
+        border: 1px solid lightgray;
+        width: 200px;
+        margin-left: 7px;
+        height: 27px;
+    }
+    input[type="submit"] {
+        width: 200px;
+        border-radius: 7px;
+        border: none;
+        color: white;
+        height: 30px;
+        margin-left: 14px;
+        background-color: rgb(184, 5, 81);
+        cursor: pointer;
+        margin-top: 20px;
+    }
+    .sign {
+        background-color: rgb(184, 8, 81);
+        width: 230px;
+        top: -50px;
+        position: absolute;
+        color: white;
+        height: 100px;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+    p {
+        font-size: 10px;
+        color: gray;
+        text-align: center;
+        margin-top: 30px;
+    }
+ 
+}
+@media (min-width:360px) and (max-width:1028px) {
+    .nav {
+        display: none;      
+}
+#menu-btn{
+    display: block;
+    color: antiquewhite;
+    font-size: 25px;
+}
+.formbox {
+    margin-left: 40px;
+    margin-top: 150px;
+    background-color: white;
+    width: 320px;
+    border-radius: 10px;
+    height: 300px;
+    position: relative;
+}
+}
+
+  
